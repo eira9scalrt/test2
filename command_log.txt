@@ -1,0 +1,51 @@
+初期化
+git init
+
+(状態を見る)
+git status
+
+ファイルをgitの管理対象にする
+git add ファイル名
+git add .
+
+ファイルをコミットする
+git commit -m "コミットメッセージ"
+
+初めての場合
+git remote add <リポジトリ名> <URL>
+※リポジトリ名は通常origin
+
+その後追跡ブランチを設定
+git push --set-upstream <リポジトリ名>
+git push -u <リポジトリ名>
+
+リモートリポジトリにプッシュする
+git push 
+
+
+
+
+
+[フォルダ=ディレクトリ]
+
+↓git add     ↑git reset
+
+[ステージングエリア=準備段階の場所=gitの管理対象]
+
+↓git commit  ↑git merge
+
+[ローカルリポジトリ=保管庫=完成物を置く場所]
+
+↓git push    ↑git fetch(更新) ↑git clone(新規)
+
+[リモートリポジトリ=サーバー上のリポジトリ]
+
+
+
+
+
+
+
+
+
+
